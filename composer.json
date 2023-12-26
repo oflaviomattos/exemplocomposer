@@ -1,0 +1,18 @@
+{
+    "name": "flavio/exemplocomposer",
+    "description": "Exemplo de Composer",
+    "autoload": {
+        "psr-4": {
+            "Flavio\\Exemplocomposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Flavio Mattos",
+            "email": "contact@flaviomattos.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}
